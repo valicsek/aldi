@@ -1,3 +1,5 @@
+![](images/index-page-preview.PNG)
+
 - Excellent English language skills
 - University degree or training with a focus on IT
 - Several years of IT experience
