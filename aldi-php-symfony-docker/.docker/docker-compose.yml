@@ -46,5 +46,6 @@ volumes:
     symfony_app_vendor:
     db_app:
 
+
 networks:
     symfony_app:
