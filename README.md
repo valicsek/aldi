@@ -8,3 +8,17 @@
 - Integration with HTTP APIs
 - Experience with shop systems such as Spryker, Oxid, Magento or Hybris is an advantage
 - Agile mindset, good communication skills
+
+# aldi-php-symfony-docker
+
+This is a complete stack for running Symfony 6.2 into Docker containers using docker-compose tool.
+
+It is composed by 4 containers:
+
+- nginx, acting as the webserver.
+- php, the PHP-FPM container with the 8.2 version of PHP.
+- db which is the MySQL database container with a MySQL 8.0 image.
+
+## Run
+
+docker compose up in .docker
