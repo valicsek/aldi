@@ -11,6 +11,9 @@ class IndexController extends AbstractController
     #[Route(path: '/', name: 'index', methods: ['GET'])]
     public function list(): Response
     {
-        return new Response('Index');
+        $number = random_int(0, 100);
+        return $this->render('index.html.twig', [
+            'number' => $number,
+        ]);
     }
 }
